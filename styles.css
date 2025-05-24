@@ -13,10 +13,6 @@
   position: relative;
 }
 
-.h1 {
-    font-size: 20px;
-}
-
 /* Navbar*/
 .navbar {
    position: sticky;
