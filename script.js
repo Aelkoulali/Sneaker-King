@@ -3,7 +3,7 @@ const Data = [
     {
         id : 1,
         name : "Lite Racer Adapt 4",
-        img : "",
+        img: { "src": "Public/Products/Adidas/Lite Racer Adapt 4" },
         brand : "Adidas",
         amt : "80",
         category: "Running",
@@ -11,7 +11,7 @@ const Data = [
     {
         id : 2,
         name : "Crayola",
-        img : " ",
+        img : { "src": "Public/Products/Adidas/Crayola" },
         brand : "Adidas",
         amt : "90",
         category: "Basketball",
