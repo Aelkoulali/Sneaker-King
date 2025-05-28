@@ -1,4 +1,34 @@
 // Declare Data
+const Data = [
+    {
 
-// Declare Variables
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+     {
+
+    },
+     {
+
+    },
+     {
+
+    },
+];
+
+// Declare variables
+
 
