@@ -1,4 +1,4 @@
-// Declare Data
+// Declare list of products
 const Data = [
     {
 
