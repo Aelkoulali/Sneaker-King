@@ -144,22 +144,6 @@ const Data = [
         amt : " ",
         category: " ",
     },
-    {
-        id : 19,
-        name : " ",
-        img : " ",
-        brand : " ",
-        amt : " ",
-        category: " ",
-    },
-    {
-        id : 20,
-        name : " ",
-        img : " ",
-        brand : " ",
-        amt : " ",
-        category: " ",
-    },
 ];
 
 // Declare variables
