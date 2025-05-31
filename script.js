@@ -90,19 +90,19 @@ const Data = [
     },
     {
         id : 12,
-        name : " ",
+        name : "Skechers GOrun",
         img : " ",
         brand : "Skechers",
         amt : " ",
-        category: " ",
+        category: "Running",
     },
     {
         id : 13,
-        name : " ",
+        name : "Skechers Summits Training",
         img : " ",
         brand : "Skechers",
         amt : " ",
-        category: " ",
+        category: "Fitness",
     },
     {
         id : 14,
