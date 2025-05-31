@@ -75,7 +75,7 @@ const Data = [
     {
         id : 10,
         name : "Puma Axelion",
-        img : " ",
+        img : { "src": "Public/Products/Puma/Puma Axelion" },
         brand : "Puma",
         amt : "50",
         category: "Fitness",
@@ -83,7 +83,7 @@ const Data = [
     {
         id : 11,
         name : "Puma Fusion Grip",
-        img : " ",
+        img : { "src": "Public/Products/Puma/Puma Fusion Grip" },
         brand : "Puma",
         amt : "70",
         category: "Golf",
