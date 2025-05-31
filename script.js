@@ -21,7 +21,7 @@ const Data = [
         name : "Jordan 1",
         img : { "src": "Public/Products/Jordan/Jordan 1" },
         brand : "Jordan",
-        amt : " ",
+        amt : "120",
         category: "Basketball",
     },
     {
@@ -29,7 +29,7 @@ const Data = [
         name : "Jordan 4",
         img : { "src": "Public/Products/Jordan/Jordan 4" },
         brand : "Jordan",
-        amt : " ",
+        amt : "150",
         category: "Basketball",
     },
     {
@@ -37,7 +37,7 @@ const Data = [
         name : "Jordan 1 Retro",
         img : { "src": "Public/Products/Jordan/Jordan 1 Retro" },
         brand : "Jordan",
-        amt : " ",
+        amt : "125",
         category: "Basketball",
     },
     {
@@ -45,7 +45,7 @@ const Data = [
         name : "Jordan 12 Retro",
         img : { "src": "Public/Products/Jordan/Jordan 12 Retro" },
         brand : "Jordan",
-        amt : " ",
+        amt : "170",
         category: "Basketball",
     },
     {
