@@ -91,17 +91,17 @@ const Data = [
     {
         id : 12,
         name : "Skechers GOrun",
-        img : " ",
+        img : { "src": "Public/Products/Puma/Puma Fusion Grip" } ,
         brand : "Skechers",
-        amt : " ",
+        amt : "50",
         category: "Running",
     },
     {
         id : 13,
         name : "Skechers Summits Training",
-        img : " ",
+        img : { "src": "Public/Products/Skechers/Skechers Summits Training" } ,
         brand : "Skechers",
-        amt : " ",
+        amt : "70",
         category: "Fitness",
     },
     {
