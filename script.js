@@ -35,7 +35,7 @@ const Data = [
     {
         id : 5,
         name : "Jordan 1 Retro",
-        img : " ",
+        img : { "src": "Public/Products/Jordan/Jordan 1 Retro" },
         brand : "Jordan",
         amt : " ",
         category: "Basketball",
@@ -43,7 +43,7 @@ const Data = [
     {
         id : 6,
         name : "Jordan 12 Retro",
-        img : " ",
+        img : { "src": "Public/Products/Jordan/Jordan 12 Retro" },
         brand : "Jordan",
         amt : " ",
         category: "Basketball",
