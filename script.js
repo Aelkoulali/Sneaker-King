@@ -106,11 +106,11 @@ const Data = [
     },
     {
         id : 14,
-        name : " ",
+        name : "Skechers Edgeride",
         img : " ",
-        brand : " ",
+        brand : "Skechers",
         amt : " ",
-        category: " ",
+        category: "Running",
     },
     {
         id : 15,
