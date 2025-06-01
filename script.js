@@ -106,6 +106,14 @@ const Data = [
     },
     {
         id : 14,
+        name : " ",
+        img : " ",
+        brand : " ",
+        amt : " ",
+        category: " ",
+    },
+    {
+        id : 15,
         name : "UA Surge 4",
         img : " ",
         brand : "Under Armour",
@@ -113,7 +121,7 @@ const Data = [
         category: "Running",
     },
     {
-        id : 15,
+        id : 16,
         name : "UA GS CUrry",
         img : " ",
         brand : "Under Armour",
@@ -121,7 +129,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 16,
+        id : 17,
         name : "UA HAVOC 3",
         img : " ",
         brand : "Under Armour",
@@ -129,21 +137,13 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 17,
+        id : 18,
         name : "UA Charged 10",
         img : " ",
         brand : "Under Armour",
         amt : " ",
         category: "Running",
-    },
-    {
-        id : 18,
-        name : " ",
-        img : " ",
-        brand : " ",
-        amt : " ",
-        category: " ",
-    },
+    },    
 ];
 
 // Declare variables
