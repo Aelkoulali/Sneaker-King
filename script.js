@@ -147,5 +147,6 @@ const Data = [
 ];
 
 // Declare variables
-
+const productsContainer = document.querySelector(".products");
+const categoyList = document.querySelector(".category-list");
 
