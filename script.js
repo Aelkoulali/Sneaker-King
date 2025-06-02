@@ -67,9 +67,9 @@ const Data = [
     {
         id : 9,
         name : "Nike Viale GS",
-        img : " ",
+        img : { "src": "Public/Products/Nike/Nike Viale GS" } ,
         brand : "Nike",
-        amt : " ",
+        amt : "75",
         category: "Fitness",
     },
     {
@@ -107,9 +107,9 @@ const Data = [
     {
         id : 14,
         name : "Skechers Edgeride",
-        img : " ",
+        img : { "src": "Public/Products/Skechers/Skechers Edgeride" },
         brand : "Skechers",
-        amt : " ",
+        amt : "80",
         category: "Running",
     },
     {
