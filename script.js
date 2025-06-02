@@ -115,15 +115,15 @@ const Data = [
     {
         id : 15,
         name : "UA Surge 4",
-        img : " ",
+        img : { "src": "Public/Products/Under Armour/UA Surge 4" },
         brand : "Under Armour",
         amt : "80",
         category: "Running",
     },
     {
         id : 16,
-        name : "UA GS CUrry",
-        img : " ",
+        name : "UA GS Curry",
+        img : { "src": "Public/Products/Under Rmour/UA GS Curry" },
         brand : "Under Armour",
         amt : "250",
         category: "Basketball",
@@ -131,7 +131,7 @@ const Data = [
     {
         id : 17,
         name : "UA HAVOC 3",
-        img : " ",
+        img : ,
         brand : "Under Armour",
         amt : "180",
         category: "Basketball",
@@ -139,7 +139,7 @@ const Data = [
     {
         id : 18,
         name : "UA Charged 10",
-        img : " ",
+        img : ,
         brand : "Under Armour",
         amt : "90",
         category: "Running",
