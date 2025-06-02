@@ -50,18 +50,18 @@ const Data = [
     },
     {
         id : 7,
-        name : "Nike ck Racer",
-        img : " ",
+        name : "Nike Ck Racer",
+        img : { "src": "Public/Products/Nike/Nike Ck Racer" },
         brand : "Nike",
-        amt : " ",
+        amt : "60",
         category: "Running",
     },
     {
         id : 8,
         name : "Nike Kobe 6",
-        img : " ",
+        img : { "src": "Public/Products/Nike/Nike Kobe 6" },
         brand : "Nike",
-        amt : " ",
+        amt : "250",
         category: "Basketball",
     },
     {
