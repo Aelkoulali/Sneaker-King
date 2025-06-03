@@ -150,4 +150,5 @@ const Data = [
 const productsContainer = document.querySelector(".products");
 const categoyList = document.querySelector(".category-list");
 
+// Function display products
 
