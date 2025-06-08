@@ -39,7 +39,7 @@
     margin-right: 10px;
 }
 
-.container-products {
+.cards {
   display: flex;
   flex-wrap: wrap;       
   justify-content: center;
