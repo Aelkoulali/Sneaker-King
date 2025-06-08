@@ -38,3 +38,10 @@
 .fa-solid {
     margin-right: 10px;
 }
+
+.container-products {
+  display: flex;
+          flex-wrap: wrap;
+  justify-content: center;
+  align-items: center
+}
