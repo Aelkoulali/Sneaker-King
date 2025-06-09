@@ -42,6 +42,15 @@
 .cards {
   display: flex;
   flex-wrap: wrap;       
+  
+}
+
+.card {
+  margin: 15px;
+}
+
+.card-title, .card-price {
   justify-content: center;
-  align-items: center
+  text-align: center;
+  background-color: blanchedalmond;
 }
