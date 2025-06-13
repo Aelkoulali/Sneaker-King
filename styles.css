@@ -34,11 +34,12 @@
     text-decoration: none;
 }
 
-/* About Section*/
+/* About Section */
 .fa-solid {
     margin-right: 10px;
 }
 
+/* Shop Section */
 .cards {
   display: flex;
   flex-wrap: wrap;  
