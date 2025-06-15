@@ -13,7 +13,7 @@ const Data = [
         name : "Crayola",
         img : { "src": "Public/Products/Adidas/Crayola" },
         brand : "Adidas",
-        amt : "90",
+        amt : "100",
         category: "Basketball",
     },
     {
@@ -21,7 +21,7 @@ const Data = [
         name : "Yeezy Boost 350",
         img : { "src": "Public/Products/Adidas/Yeezy Boost 350" },
         brand : "Adidas",
-        amt : "200",
+        amt : "230",
         category: "Fitness",
     },
     {
@@ -37,7 +37,7 @@ const Data = [
         name : "Jordan 1",
         img : { "src": "Public/Products/Jordan/Jordan 1" },
         brand : "Jordan",
-        amt : "120",
+        amt : "125",
         category: "Basketball",
     },
     {
@@ -53,7 +53,7 @@ const Data = [
         name : "Jordan 1 Retro",
         img : { "src": "Public/Products/Jordan/Jordan 1 Retro" },
         brand : "Jordan",
-        amt : "125",
+        amt : "135",
         category: "Basketball",
     },
     {
