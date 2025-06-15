@@ -69,7 +69,7 @@ const Data = [
         name : "Nike Ck Racer",
         img : { "src": "Public/Products/Nike/Nike Ck Racer" },
         brand : "Nike",
-        amt : "60",
+        amt : "70",
         category: "Running",
     },
     {
@@ -93,7 +93,7 @@ const Data = [
         name : "Puma Axelion",
         img : { "src": "Public/Products/Puma/Puma Axelion" },
         brand : "Puma",
-        amt : "50",
+        amt : "60",
         category: "Fitness",
     },
     {
