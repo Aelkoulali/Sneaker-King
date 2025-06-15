@@ -2,19 +2,19 @@
 const Data = [
     {
         id : 1,
-        name : "Lite Racer Adapt 4",
-        img: { "src": "Public/Products/Adidas/Lite Racer Adapt 4" },
-        brand : "Adidas",
-        amt : "80",
-        category: "Running",
-    },
-    {
-        id : 2,
         name : "Crayola",
-        img : { "src": "Public/Products/Adidas/Crayola" },
+        img: { "src": "Public/Products/Adidas/Crayola" },
         brand : "Adidas",
         amt : "100",
         category: "Basketball",
+    },
+    {
+        id : 2,
+        name : "Lite Racer Adapt 4",
+        img : { "src": "Public/Products/Adidas/Lite Racer Adapt 4" },
+        brand : "Adidas",
+        amt : "90",
+        category: "Running",
     },
     {
         id : 3,
