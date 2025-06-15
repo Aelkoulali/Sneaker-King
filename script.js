@@ -18,6 +18,22 @@ const Data = [
     },
     {
         id : 3,
+        name : "Crayola",
+        img : { "src": "Public/Products/Adidas/Crayola" },
+        brand : "Adidas",
+        amt : "90",
+        category: "Basketball",
+    },
+    {
+        id : 4,
+        name : "Crayola",
+        img : { "src": "Public/Products/Adidas/Crayola" },
+        brand : "Adidas",
+        amt : "90",
+        category: "Basketball",
+    },
+    {
+        id : 5,
         name : "Jordan 1",
         img : { "src": "Public/Products/Jordan/Jordan 1" },
         brand : "Jordan",
@@ -25,7 +41,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 4,
+        id : 6,
         name : "Jordan 4",
         img : { "src": "Public/Products/Jordan/Jordan 4" },
         brand : "Jordan",
@@ -33,7 +49,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 5,
+        id : 7,
         name : "Jordan 1 Retro",
         img : { "src": "Public/Products/Jordan/Jordan 1 Retro" },
         brand : "Jordan",
@@ -41,7 +57,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 6,
+        id : 8,
         name : "Jordan 12 Retro",
         img : { "src": "Public/Products/Jordan/Jordan 12 Retro" },
         brand : "Jordan",
@@ -49,7 +65,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 7,
+        id : 9,
         name : "Nike Ck Racer",
         img : { "src": "Public/Products/Nike/Nike Ck Racer" },
         brand : "Nike",
@@ -57,7 +73,7 @@ const Data = [
         category: "Running",
     },
     {
-        id : 8,
+        id : 10,
         name : "Nike Kobe 6",
         img : { "src": "Public/Products/Nike/Nike Kobe 6" },
         brand : "Nike",
@@ -65,7 +81,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 9,
+        id : 11,
         name : "Nike Viale GS",
         img : { "src": "Public/Products/Nike/Nike Viale GS" } ,
         brand : "Nike",
@@ -73,7 +89,7 @@ const Data = [
         category: "Fitness",
     },
     {
-        id : 10,
+        id : 12,
         name : "Puma Axelion",
         img : { "src": "Public/Products/Puma/Puma Axelion" },
         brand : "Puma",
@@ -81,7 +97,7 @@ const Data = [
         category: "Fitness",
     },
     {
-        id : 11,
+        id : 13,
         name : "Puma Fusion Grip",
         img : { "src": "Public/Products/Puma/Puma Fusion Grip" },
         brand : "Puma",
@@ -89,7 +105,7 @@ const Data = [
         category: "Golf",
     },
     {
-        id : 12,
+        id : 14,
         name : "Skechers GOrun",
         img : { "src": "Public/Products/Puma/Puma Fusion Grip" } ,
         brand : "Skechers",
@@ -97,7 +113,7 @@ const Data = [
         category: "Running",
     },
     {
-        id : 13,
+        id : 15,
         name : "Skechers Summits Training",
         img : { "src": "Public/Products/Skechers/Skechers Summits Training" } ,
         brand : "Skechers",
@@ -105,7 +121,7 @@ const Data = [
         category: "Fitness",
     },
     {
-        id : 14,
+        id : 16,
         name : "Skechers Edgeride",
         img : { "src": "Public/Products/Skechers/Skechers Edgeride" },
         brand : "Skechers",
@@ -113,7 +129,7 @@ const Data = [
         category: "Running",
     },
     {
-        id : 15,
+        id : 17,
         name : "UA Surge 4",
         img : { "src": "Public/Products/Under Armour/UA Surge 4" },
         brand : "Under Armour",
@@ -121,7 +137,7 @@ const Data = [
         category: "Running",
     },
     {
-        id : 16,
+        id : 18,
         name : "UA GS Curry",
         img : { "src": "Public/Products/Under Armour/UA GS Curry" },
         brand : "Under Armour",
@@ -129,7 +145,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 17,
+        id : 19,
         name : "UA HAVOC 3",
         img :  { "src": "Public/Products/Under Armour/UA HAVOC 3" },
         brand : "Under Armour",
@@ -137,7 +153,7 @@ const Data = [
         category: "Basketball",
     },
     {
-        id : 18,
+        id : 20,
         name : "UA Charged 10",
         img :  { "src": "Public/Products/Under Armour/UA Charger 10" },
         brand : "Under Armour",
