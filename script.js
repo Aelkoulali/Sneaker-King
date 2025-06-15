@@ -58,10 +58,10 @@ const Data = [
     },
     {
         id : 8,
-        name : "Jordan 12 Retro",
-        img : { "src": "Public/Products/Jordan/Jordan 12 Retro" },
+        name : "Jordan 11 Retro",
+        img : { "src": "Public/Products/Jordan/Jordan 11 Retro" },
         brand : "Jordan",
-        amt : "170",
+        amt : "250",
         category: "Basketball",
     },
     {
@@ -109,7 +109,7 @@ const Data = [
         name : "Skechers GOrun",
         img : { "src": "Public/Products/Puma/Puma Fusion Grip" } ,
         brand : "Skechers",
-        amt : "50",
+        amt : "65",
         category: "Running",
     },
     {
