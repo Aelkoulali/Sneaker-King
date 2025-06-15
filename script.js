@@ -22,7 +22,7 @@ const Data = [
         img : { "src": "Public/Products/Adidas/Yeezy Boost 350" },
         brand : "Adidas",
         amt : "90",
-        category: "Basketball",
+        category: "Fitness",
     },
     {
         id : 4,
@@ -30,7 +30,7 @@ const Data = [
         img : { "src": "Public/Products/Adidas/Yeezy Powerphase" },
         brand : "Adidas",
         amt : "90",
-        category: "Basketball",
+        category: "Tennis",
     },
     {
         id : 5,
