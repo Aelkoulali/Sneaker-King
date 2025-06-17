@@ -60,4 +60,11 @@
   margin-right: 5px;
 }
 
+.fa-heart {
+  cursor: pointer;
+}
 
+.fa-heart:hover {
+ color:red;
+ 
+}
