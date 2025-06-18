@@ -41,7 +41,7 @@
 	<main>
 		<section style="background-color: hsl(189, 92%, 66%);">
 			<div class="container-cards">
-				<label class="option-label"   style="margin: 25px;"  for="sneakers">Filter</label>
+				<label class="option-label"  style="margin: 25px;"  for="sneakers">Filter</label>
 				<select name="sneakers" id="sneakers">
                     <option value="all">All Sneakers</option>
                     <option value="basketball">Category Basketball</option>
@@ -50,7 +50,12 @@
                     <option value="tennis">Category Tennis</option>
                     <option value="golf">Category Golf</option>
                     <option value="new">New Added</option>
-				</select>
+				</select> 
+                <div class="price" style="margin: 25px;" >
+                    <p>price range</p>
+                    <input type="range" id="priceRange" />
+                    <span class="priceValue">500</span>
+                </div>                
 			<div class="cards">
 				<div class="card">
                     <div class="card-image">
