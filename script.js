@@ -142,6 +142,7 @@ const Data = [
         brand : "Skechers",
         amt : "80",
         category: "Running",
+        isNew : false,
     },
     {
         id : 17,
@@ -150,6 +151,7 @@ const Data = [
         brand : "Under Armour",
         amt : "80",
         category: "Running",
+        isNew : false,
     },
     {
         id : 18,
@@ -158,6 +160,7 @@ const Data = [
         brand : "Under Armour",
         amt : "250",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 19,
@@ -166,6 +169,7 @@ const Data = [
         brand : "Under Armour",
         amt : "180",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 20,
@@ -174,6 +178,7 @@ const Data = [
         brand : "Under Armour",
         amt : "90",
         category: "Running",
+        isNew : false,
     },    
 ];
 
