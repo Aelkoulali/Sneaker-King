@@ -25,7 +25,7 @@ const Data = [
         brand : "Adidas",
         amt : "230",
         category: "Fitness",
-        isNew : false,
+        isNew : true,
     },
     {
         id : 4,
@@ -61,7 +61,7 @@ const Data = [
         brand : "Jordan",
         amt : "135",
         category: "Basketball",
-        isNew : false,
+        isNew : true,
     },
     {
         id : 8,
@@ -88,7 +88,7 @@ const Data = [
         brand : "Nike",
         amt : "250",
         category: "Basketball",
-        isNew : false,
+        isNew : true,
     },
     {
         id : 11,
@@ -160,7 +160,7 @@ const Data = [
         brand : "Under Armour",
         amt : "250",
         category: "Basketball",
-        isNew : false,
+        isNew : true,
     },
     {
         id : 19,
