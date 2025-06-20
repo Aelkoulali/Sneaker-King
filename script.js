@@ -7,6 +7,7 @@ const Data = [
         brand : "Adidas",
         amt : "100",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 2,
@@ -15,6 +16,7 @@ const Data = [
         brand : "Adidas",
         amt : "90",
         category: "Running",
+        isNew : false,
     },
     {
         id : 3,
@@ -23,6 +25,7 @@ const Data = [
         brand : "Adidas",
         amt : "230",
         category: "Fitness",
+        isNew : false,
     },
     {
         id : 4,
@@ -31,6 +34,7 @@ const Data = [
         brand : "Adidas",
         amt : "180",
         category: "Tennis",
+        isNew : false,
     },
     {
         id : 5,
@@ -39,6 +43,7 @@ const Data = [
         brand : "Jordan",
         amt : "125",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 6,
@@ -47,6 +52,7 @@ const Data = [
         brand : "Jordan",
         amt : "150",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 7,
@@ -55,6 +61,7 @@ const Data = [
         brand : "Jordan",
         amt : "135",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 8,
@@ -63,6 +70,7 @@ const Data = [
         brand : "Jordan",
         amt : "250",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 9,
@@ -71,6 +79,7 @@ const Data = [
         brand : "Nike",
         amt : "70",
         category: "Running",
+        isNew : false,
     },
     {
         id : 10,
@@ -79,6 +88,7 @@ const Data = [
         brand : "Nike",
         amt : "250",
         category: "Basketball",
+        isNew : false,
     },
     {
         id : 11,
