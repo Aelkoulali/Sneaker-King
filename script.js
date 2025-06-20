@@ -97,6 +97,7 @@ const Data = [
         brand : "Nike",
         amt : "75",
         category: "Fitness",
+        isNew : false,
     },
     {
         id : 12,
@@ -105,6 +106,7 @@ const Data = [
         brand : "Puma",
         amt : "60",
         category: "Fitness",
+        isNew : false,
     },
     {
         id : 13,
@@ -113,6 +115,7 @@ const Data = [
         brand : "Puma",
         amt : "70",
         category: "Golf",
+        isNew : false,
     },
     {
         id : 14,
@@ -121,6 +124,7 @@ const Data = [
         brand : "Skechers",
         amt : "65",
         category: "Running",
+        isNew : false,
     },
     {
         id : 15,
@@ -129,6 +133,7 @@ const Data = [
         brand : "Skechers",
         amt : "70",
         category: "Fitness",
+        isNew : false,
     },
     {
         id : 16,
