@@ -50,8 +50,13 @@
 .card {
   margin: 15px;
   padding: 15px;
+  cursor: pointer;
 }
 
+.card:hover {
+ transform: scale(1.1);
+
+}
 .card-price {
   display:flex;
   justify-content:space-between;
