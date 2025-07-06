@@ -49,8 +49,8 @@
   display: flex;
   flex-wrap: wrap;  
   justify-content: center;   
-  
-}
+  padding-bottom: 25px;
+} 
 
 .card {
   margin: 15px;
