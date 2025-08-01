@@ -188,19 +188,6 @@ const categoyList = document.querySelector(".category-list");
 
 // Function display products
 function displayProducts(products) {
-    productsContainer.innerHTML = ""; // Clear existing products
-    products.forEach(product => {
-        const productElement = document.createElement("div");
-        productElement.classList.add("product");
-        productElement.innerHTML = `
-            <img src="${product.img.src}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>Brand: ${product.brand}</p>
-            <p>Price: $${product.amt}</p>
-            <p>Category: ${product.category}</p>
-            <p>New Added: ${product.isNew ? "Yes" : "No"}</p>
-        `;
-        productsContainer.appendChild(productElement);
-    });
+    
 }
 
