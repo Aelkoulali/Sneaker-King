@@ -186,7 +186,7 @@ const Data = [
 const productsContainer = document.querySelector(".products");
 const categoyList = document.querySelector(".category-list");
 
-// Function display products
+// Function display shoes based on category
 function displayProducts(products) {
     
 }
