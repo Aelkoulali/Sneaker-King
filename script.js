@@ -191,3 +191,5 @@ function displayProducts(products) {
     
 }
 
+// Function that will detect when a user makes a selection
+
