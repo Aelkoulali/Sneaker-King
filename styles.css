@@ -30,6 +30,11 @@ h1 {
   color: rgb(194, 166, 5);
   transition: all 0.3s ease-in-out;
 }
+
+.fab:hover, .fa-brands:hover {
+  color:  #ff8b00;
+  transform: scale(1.2);
+}
   
 
 /* Navbar*/
