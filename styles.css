@@ -79,6 +79,11 @@ h1 {
   background: linear-gradient(to bottom right, #5fc4ff, #7bf5fe);
 }
 
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
 .card-price {
   display:flex;
   justify-content:space-between;
