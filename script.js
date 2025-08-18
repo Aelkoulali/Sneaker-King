@@ -29,10 +29,10 @@ const Data = [
     },
     {
         id : 4,
-        name : "Yeezy Powerphase",
-        img : { "src": "Public/Products/Adidas/Yeezy Powerphase" },
+        name : "Yeezy 500",
+        img : { "src": "Public/Products/Adidas/Yeezy 500" },
         brand : "Adidas",
-        amt : "180",
+        amt : "200",
         category: "Tennis",
         isNew : false,
     },
