@@ -92,10 +92,10 @@ const Data = [
     },
     {
         id : 11,
-        name : "Nike Viale GS",
-        img : { "src": "Public/Products/Nike/Nike Viale GS" } ,
+        name : "Nike Metcon 1",
+        img : { "src": "Public/Products/Nike/Nike Metcon 1" } ,
         brand : "Nike",
-        amt : "75",
+        amt : "150",
         category: "Fitness",
         isNew : false,
     },
