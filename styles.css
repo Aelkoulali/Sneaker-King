@@ -69,14 +69,14 @@ h1 {
   padding-bottom: 25px;
 } 
 
-.card, .card-body {
+.card-product{
   margin: 15px;
   padding: 15px;
   border-radius: 15px;  
   background: linear-gradient(to bottom right, #5fc4ff, #7bf5fe);
 }
 
-.card:hover {
+.card-product:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
