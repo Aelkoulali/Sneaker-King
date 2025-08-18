@@ -72,7 +72,7 @@ h1 {
   padding-bottom: 25px;
 } 
 
-.card {
+.card, .card-body {
   margin: 15px;
   padding: 15px;
   border-radius: 15px;  
