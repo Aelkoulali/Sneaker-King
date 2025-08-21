@@ -64,7 +64,12 @@
   margin-top: 20px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 /* Shop Section */
