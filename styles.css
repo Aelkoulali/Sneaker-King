@@ -8,6 +8,7 @@
 }
 
 /* Hero Section*/
+
 .hero {
   height: 100vh;
   position: relative;
@@ -27,7 +28,6 @@
   
 }
 
-
 .fab, .fa-brands {
   color: rgb(194, 166, 5);
   transition: all 0.3s ease-in-out;
@@ -39,6 +39,7 @@
 }
 
 /* Navbar*/
+
 .navbar {
    position: sticky;
 }
@@ -60,6 +61,7 @@
 }
 
 /* About Section */
+
 .service-box {
   margin-top: 20px;
   padding: 20px;
