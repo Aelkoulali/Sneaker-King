@@ -40,18 +40,18 @@
 	</nav>
 	<main>
 		<section>
+            <div class="row" id="search">
+		   <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+			<div class="form-group ">
+				<input class="form-control" type="text" placeholder="Search" />
+			</div>
+			<div class="form-group ">
+				<button type="submit" class="btn btn-block btn-primary">Search</button>
+			</div>
+		    </form>
+	        </div>
 			<div class="container-cards">
-				<label class="option-label"  style="margin: 25px;"  for="sneakers">Filter</label>
-				<select name="sneakers" id="sneakers">
-                    <option value="all">All Sneakers</option>
-                    <option value="basketball">Category Basketball</option>
-                    <option value="running">Category Running</option>
-                    <option value="fitness">Category Fitness</option>
-                    <option value="tennis">Category Tennis</option>
-                    <option value="golf">Category Golf</option>
-                    <option value="new">New Added</option>
-				</select>                               
-			<div class="cards">
+            <div class="cards">
 				<div class="card-product">
                     <div class="card-image" style="margin-bottom: 5px;">
                        <img src="Public/Products/Adidas/Crayola.png" alt=" ADIDAS Crayola Red" width="270" height="292">
