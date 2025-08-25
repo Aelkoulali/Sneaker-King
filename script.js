@@ -33,7 +33,7 @@ const Data = [
         img : { "src": "Public/Products/Adidas/Yeezy 500" },
         brand : "Adidas",
         amt : "200",
-        category: "Tennis",
+        category: "Basketball",
         isNew : false,
     },
     {
