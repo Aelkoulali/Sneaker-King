@@ -1,3 +1,13 @@
+// script.js
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar-home");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+
 // Declare list of products
 const Data = [
     {
