@@ -46,37 +46,41 @@
                <button type="submit" class="btn btn-primary">Search</button>               
                </form>               
             </div>
-            <div class="row justify-content-center" id="filter">
+            <div class="row justify-content-center" id="filter" style="margin-top: 20px;">
             <form d-flexwrap="wrap" id="filter-form" class="form-inline justify-content-center my-4" action="" method="POST" enctype="multipart/form-data">
             <div class="form-group justify-content-center">
-            <select data-filter="brand" class="filter-brand filter form-control">
+            <select data-filter="brand" class="filter-brand filter form-control" style="margin-right: 15px;">
                 <option value="">Select Brand</option>
                 <option value="Nike">Nike</option>
                 <option value="Adidas">Adidas</option>
                 <option value="Puma">Puma</option>
+                <option value="Under Armour">Under Armour</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Skechers">Skechers</option>
                 <!-- Add more options as needed -->
             </select>
             </div>
             <div class="form-group justify-content-center">
-            <select data-filter="category" class="filter-category filter form-control">
+            <select data-filter="category" class="filter-category filter form-control" style="margin-right: 15px;">
                 <option value="">Select Category</option>
                 <option value="Running">Running</option>
                 <option value="Basketball">Basketball</option>
-                <option value="Casual">Casual</option>
+                <option value="Fitness">Fitness</option>
+                <option value="Golf">Golf</option>
                 <!-- Add more options as needed -->
             </select>
             </div>
             <div class="form-group justify-content-center">
-            <select data-filter="price" class="filter-price filter form-control">
+            <select data-filter="price" class="filter-price filter form-control" style="margin-right: 15px;">
                 <option value="">Select Price Range</option>
-                <option value="under50">$0 - $50</option>
-                <option value="50to100">$50 - $100</option>
-                <option value="over100">$100+</option>
+                <option value="under50">$0 - $100</option>
+                <option value="50to100">$100 - $200</option>
+                <option value="over100">$200+</option>
                 <!-- Add more options as needed -->
             </select>
             </div>
             <div class="form-group justify-content-center">
-            <select data-filter="new" class="filter-new filter form-control">
+            <select data-filter="new" class="filter-new filter form-control" style="margin-right: 15px;">
                 <option value="">Select Newness</option>
                 <option value="new">New Arrivals</option>
                 <option value="all">Show All</option>
