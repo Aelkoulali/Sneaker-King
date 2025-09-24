@@ -92,12 +92,12 @@ body.home-page {
 
 /* Social Icons */
 .fab, .fa-brands {
-  color: #FFC107;
+  color: white;
   transition: all 0.3s ease-in-out;
 }
 
 .fab:hover, .fa-brands:hover {
-  color: #ff8b00;
+  color: black;
   transform: scale(1.2);
 }
 
