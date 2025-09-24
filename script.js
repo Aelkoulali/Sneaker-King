@@ -192,20 +192,4 @@ const Data = [
     },    
 ];
 
-// Declare variables
-const productsContainer = document.querySelector(".products");
-const categoyList = document.querySelector(".category-list");
-
-// Function display shoes based on category
-const setCategory = (arr = Data) => {
-    const categories = [...new Set(arr.map(item => item.category))];
-    categories.forEach(category => {
-        const button = document.createElement("button");
-        button.innerText = category;
-        button.addEventListener("click", () => filterProducts(category));
-        categoyList.appendChild(button);
-    });
-}
-
-// Function that will detect when a user makes a selection
 
