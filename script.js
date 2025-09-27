@@ -195,9 +195,20 @@ const Data = [
 // Declare variables
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
-const productContainer = document.getElementById("product-container");
+const cardProductContainer = document.getElementById("container-cards");
 let filteredData = Data;
 
-// Function to display products
+// Function to display products based on search button click
+searchForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // prevent form from refreshing the page
 
+    const query = searchInput.value.trim().toLowerCase();
 
+    filteredData = Data.filter(product =>
+        product.name.toLowerCase().includes(query) ||
+        product.brand.toLowerCase().includes(query) ||
+        product.type.toLowerCase().includes(query)
+    );
+
+    displayProducts();
+});
