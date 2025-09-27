@@ -196,3 +196,8 @@ const Data = [
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
 const productContainer = document.getElementById("product-container");
+let filteredData = Data;
+
+// Function to display products
+
+
