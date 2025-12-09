@@ -243,3 +243,7 @@ function filterProducts() {
 }
 
 // Search event listener
+searchForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+    filterProducts(); // Apply filter when search form is submitted
+});
