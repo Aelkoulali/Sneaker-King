@@ -241,3 +241,5 @@ function filterProducts() {
         card.style.display = isVisible ? "block" : "none";
     });
 }
+
+// Search event listener
