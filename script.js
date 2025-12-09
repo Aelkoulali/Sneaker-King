@@ -196,5 +196,12 @@ const productCards = document.querySelectorAll(".card-product");
 
 // Function to filter and display products
 function filterProducts() {
+    const query = searchInput.value.toLowerCase();
+    const brand = filterBrand.value;
+    const type = filterType.value;
+    const price = filterPrice.value;
+    const isNew = filterNew.checked;
+
     
+
 }
