@@ -191,6 +191,9 @@ const filterType = document.querySelector(".filter-type");
 const filterPrice = document.querySelector(".filter-price");
 const filterNew = document.querySelector(".filter-new");
 
+// Get All product cards
+const productCards = document.querySelectorAll(".card-product");
+
 // Function to display products based on search button click
 searchForm.addEventListener("submit", function (event) {
     event.preventDefault(); // prevent form from refreshing the page
