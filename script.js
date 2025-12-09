@@ -186,7 +186,10 @@ const Data = [
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
 const cardProductContainer = document.getElementById("container-cards");
-let filteredData = Data;
+const filterBrand = document.querySelector(".filter-brand");
+const filterType = document.querySelector(".filter-type");
+const filterPrice = document.querySelector(".filter-price");
+const filterNew = document.querySelector(".filter-new");
 
 // Function to display products based on search button click
 searchForm.addEventListener("submit", function (event) {
