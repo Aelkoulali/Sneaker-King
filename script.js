@@ -233,7 +233,7 @@ function filterProducts() {
             isVisible = false;
         }
         // Apply new filter
-        if (isNew && !productIsNew) {
+        if (selectedNew == "new" && !isNew) {
             isVisible = false;
         }
 
