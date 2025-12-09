@@ -247,3 +247,12 @@ searchForm.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
     filterProducts(); // Apply filter when search form is submitted
 });
+
+// Filter event listeners
+filterBrand.addEventListener("change", filterProducts);
+filterType.addEventListener("change", filterProducts);
+filterPrice.addEventListener("change", filterProducts);
+filterNew.addEventListener("change", filterProducts);
+
+// Initial filter on page load
+filterProducts();
