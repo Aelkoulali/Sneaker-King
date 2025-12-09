@@ -194,17 +194,7 @@ const filterNew = document.querySelector(".filter-new");
 // Get All product cards
 const productCards = document.querySelectorAll(".card-product");
 
-// Function to display products based on search button click
-searchForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // prevent form from refreshing the page
-
-    const query = searchInput.value.trim().toLowerCase();
-
-    filteredData = Data.filter(product =>
-        product.name.toLowerCase().includes(query) ||
-        product.brand.toLowerCase().includes(query) ||
-        product.type.toLowerCase().includes(query)
-    );
-
-    displayProducts();
-});
+// Function to filter and display products
+function filterProducts() {
+    
+}
