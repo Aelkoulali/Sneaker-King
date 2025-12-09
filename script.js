@@ -209,5 +209,35 @@ function filterProducts() {
         const productPrice = parseFloat(card.querySelector(".card-price").textContent.replace("$", ""));
         const productIsNew = card.querySelector(".card-new") ? true : false;
 
+        // Deafult vidibility is hidden
+        let isVisible = true;
 
+        // Apply search filter (name, brand,type)
+        if (query && !productName.includes(query) && !productBrand.includes(query) && !productType.includes(query)) {
+            isVisible = false;
+        }
+        // Apply brand filter
+        if (brand && productBrand !== brand.toLowerCase()) {
+            isVisible = false;
+        }
+        // Apply type filter
+        if (type && productType !== type.toLowerCase()) {
+            isVisible = false;
+        }
+        // Apply price filter
+        if (selectedPrice === "under50" && productPrice >= 100) {
+            isVisible = false;
+            } else if (selectedPrice === "50to100" && (productPrice < 100 || productPrice >= 200)) {
+            isVisible = false;
+            } else if (selectedPrice === "over100" && productPrice < 200) {
+            isVisible = false;
+        }
+        // Apply new filter
+        if (isNew && !productIsNew) {
+            isVisible = false;
+        }
+
+        // Set card visibility
+        card.style.display = isVisible ? "block" : "none";
+    });
 }
