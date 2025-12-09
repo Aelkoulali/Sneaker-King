@@ -202,6 +202,12 @@ function filterProducts() {
     const price = filterPrice.value;
     const isNew = filterNew.checked;
 
-    
+    productCards.forEach(card => {
+        const productName = card.querySelector(".card-title h6").textContent.toLowerCase();
+        const productBrand = card.querySelector(".card-brand")? card.querySelector(".card-brand").textContent.toLowerCase() : "";
+        const productType = card.querySelector(".card-type")? card.querySelector(".card-type").textContent.toLowerCase() : "";
+        const productPrice = parseFloat(card.querySelector(".card-price").textContent.replace("$", ""));
+        const productIsNew = card.querySelector(".card-new") ? true : false;
+
 
 }
