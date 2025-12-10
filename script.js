@@ -16,7 +16,7 @@ function filterProducts() {
     const brand = filterBrand.value;
     const type = filterType.value;
     const price = filterPrice.value;
-    const isNew = filterNew.checked;
+    const isNew = filterNew.value;
 
     productCards.forEach(card => {
         const productName = card.querySelector(".card-title h6").textContent.toLowerCase();
@@ -41,11 +41,11 @@ function filterProducts() {
             isVisible = false;
         }
         // Apply price filter
-        if (selectedPrice === "under50" && productPrice >= 100) {
+        if (price === "under50" && productPrice >= 100) {
             isVisible = false;
-            } else if (selectedPrice === "50to100" && (productPrice < 100 || productPrice >= 200)) {
+            } else if (price === "50to100" && (productPrice < 100 || productPrice >= 200)) {
             isVisible = false;
-            } else if (selectedPrice === "over100" && productPrice < 200) {
+            } else if (price === "over100" && productPrice < 200) {
             isVisible = false;
         }
         // Apply new filter
