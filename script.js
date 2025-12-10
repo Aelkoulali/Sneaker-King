@@ -8,7 +8,7 @@ const Data = [
     { id: 6, name: "Jordan 4", img: "Public/Products/Jordan/Jordan 4.png", brand: "Jordan", price: 150, type: "Basketball", isNew: false },
     { id: 7, name: "Jordan 1 Retro", img: "Public/Products/Jordan/Jordan 1 Retro.png", brand: "Jordan", price: 135, type: "Basketball", isNew: true },
     { id: 8, name: "Jordan 11 Retro", img: "Public/Products/Jordan/Jordan 11 Retro.png", brand: "Jordan", price: 250, type: "Basketball", isNew: false },
-    { id: 9, name: "Nike CK Racer", img: "Public/Products/Nike/Nike Ck Racer.png", brand: "Nike", price: 70, type: "Running", isNew: false },
+    { id: 9, name: "Nike Revolution 6", img: "Public/Products/Nike/Nike revolution 6.png", brand: "Nike", price: 70, type: "Running", isNew: false },
     { id: 10, name: "Nike Kobe 6", img: "Public/Products/Nike/Nike Kobe 6.png", brand: "Nike", price: 250, type: "Basketball", isNew: true },
     { id: 11, name: "Nike Metcon 1", img: "Public/Products/Nike/Nike Metcon 1.png", brand: "Nike", price: 150, type: "Fitness", isNew: false },
     { id: 12, name: "Puma Axelion", img: "Public/Products/Puma/Puma Axelion.png", brand: "Puma", price: 60, type: "Fitness", isNew: false },
