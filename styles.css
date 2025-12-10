@@ -167,6 +167,20 @@ body.home-page {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
+.card-image {
+    width: 100%;
+    height: 230px; /* you can change this */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* prevents oversized images from spilling */
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* contains the shoe without stretching */
+}
 
 .card-price {
   display:flex;
