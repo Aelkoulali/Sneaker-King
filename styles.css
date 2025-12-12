@@ -125,7 +125,7 @@ body.home-page {
 
 /* About Section */
 
-.service-box {
+.service-box ,.service-header,.service{
   margin-top: 20px;
   padding: 20px;
   border-radius: 10px;
