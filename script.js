@@ -1,4 +1,4 @@
-// PRODUCT DATA
+// Product  DATA
 const Data = [
     { id: 1, name: "Crayola", img: "Public/Products/Adidas/Crayola.png", brand: "Adidas", price: 100, type: "Basketball", isNew: false },
     { id: 2, name: "Lite Racer Adapt 4", img: "Public/Products/Adidas/Lite Racer Adapt 4.png", brand: "Adidas", price: 90, type: "Running", isNew: false },
@@ -22,7 +22,7 @@ const Data = [
     { id: 20, name: "UA Charged 10", img: "Public/Products/Under Armour/UA Charged 10.png", brand: "Under Armour", price: 90, type: "Running", isNew: false }
 ];
 
-// DOM ELEMENTS
+// DOM Elements
 const productContainer = document.getElementById("product-container");
 const searchInput = document.getElementById("search-input");
 const filterBrand = document.querySelector(".filter-brand");
@@ -31,7 +31,7 @@ const filterPrice = document.querySelector(".filter-price");
 const filterNew = document.querySelector(".filter-new");
 
 
-// GENERATE CARDS
+// Generate Card 
 function loadProducts(products) {
     productContainer.innerHTML = "";
 
@@ -62,7 +62,7 @@ function loadProducts(products) {
 }
 
 
-// FILTER FUNCTION
+// Filter Function
 function filterProducts() {
     const search = searchInput.value.toLowerCase();
     const brand = filterBrand.value.toLowerCase();
@@ -90,7 +90,7 @@ function filterProducts() {
 }
 
 
-// LISTENERS
+// Listeners
 searchInput.addEventListener("input", filterProducts);
 filterBrand.addEventListener("change", filterProducts);
 filterType.addEventListener("change", filterProducts);
@@ -98,5 +98,5 @@ filterPrice.addEventListener("change", filterProducts);
 filterNew.addEventListener("change", filterProducts);
 
 
-// INITIAL LOAD
+// Initial Load
 loadProducts(Data);
