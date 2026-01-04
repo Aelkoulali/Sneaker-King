@@ -61,6 +61,12 @@ function loadProducts(products) {
     });
 }
 
+// Add Event Listener for btn btn-primary btn-sm when clicked show add to cart alert
+productContainer.addEventListener("click", function(event) {
+    if (event.target.classList.contains("btn-primary")) {
+        alert("Product added to cart!");
+    }
+});
 
 // Filter Function
 function filterProducts() {
