@@ -204,3 +204,10 @@ body.home-page {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
+
+/* Carousel Styles */
+.carousel-inner .carousel-item img {
+    width: 100%; /* Make the image take full width */
+    height: 100%; /* Make the image take full height */
+    object-fit: cover; /* Ensure the image covers the area without distorting */
+}
