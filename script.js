@@ -63,7 +63,7 @@ function loadProducts(products) {
 
 // Add Event Listener for btn btn-primary btn-sm when clicked show add to cart alert
 productContainer.addEventListener("click", function(event) {
-    if (event.target.classList.contains("btn-primary")) {
+    if (event.target.classList.contains("btn-primary btn-sm") || event.target.parentElement.classList.contains("btn-primary btn-sm")) {
         alert("Product added to cart!");
     }
 });
