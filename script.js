@@ -63,7 +63,9 @@ function loadProducts(products) {
 
 // Add Event Listener for btn btn-primary btn-sm when clicked show add to cart alert
 productContainer.addEventListener("click", function(event) {
-    if (event.target.classList.contains("btn-primary btn-sm") || event.target.parentElement.classList.contains("btn-primary btn-sm")) {
+    // Check if the clicked target is the button or a child of the button
+    const button = event.target.closest(".btn-primary"); 
+    if (button) {
         alert("Product added to cart!");
     }
 });
