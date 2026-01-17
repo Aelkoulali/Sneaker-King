@@ -211,3 +211,10 @@ body.home-page {
     height: 100%; /* Make the image take full height */
     object-fit: cover; /* Ensure the image covers the area without distorting */
 }
+
+/* Form Styles */
+.form-check a {
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
