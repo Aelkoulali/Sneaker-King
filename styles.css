@@ -19,6 +19,7 @@ body.home-page {
 }
 
 /* Navbar */
+
 .navbar-home {
   background-color: rgba(255, 255, 255, 0.1) !important;
   backdrop-filter: blur(10px);
@@ -89,6 +90,7 @@ body.home-page {
 }
 
 /* Social Icons */
+
 .fab, .fa-brands {
   color: white;
   transition: all 0.3s ease-in-out;
@@ -99,6 +101,7 @@ body.home-page {
   transform: scale(1.2);
 }
 /* Button Styles */
+
 .btn-shop {  
   background-color: white;
   color: black;
@@ -206,6 +209,7 @@ body.home-page {
 }
 
 /* Carousel Styles */
+
 .carousel-inner .carousel-item img {
     width: 100%; /* Make the image take full width */
     height: 100%; /* Make the image take full height */
@@ -213,6 +217,7 @@ body.home-page {
 }
 
 /* Form Styles */
+
 .form-check a {
   color: black;
   text-decoration: underline;
